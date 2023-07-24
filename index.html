@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prisere Resilience Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Introducing Prisere: Your Comprehensive Disaster Resilience and Insurance Claims App</h1>
+        <p>Prepare your business for the unexpected with Prisere - the ultimate app designed to empower small and medium-sized businesses (SMBs) like yours in times of disaster. Our powerful features ensure a seamless business interruption claim process, offering financial protection and peace of mind when you need it most.</p>
+
+        <h2>Required Features for Smooth Business Interruption Claims:</h2>
+        <ul>
+            <li><span>Business Interruption Claim Management: Easily handle revenue and expense data with seamless integration from QuickBooks. Store historical data in various formats, including images and e-forms, for comprehensive documentation.</span></li>
+            <li><span>Extraordinary Expenses Tracking: Effortlessly assess the fair value of damaged goods and track associated costs. Record past expenses to ensure accurate compensation for extraordinary losses.</span></li>
+            <li><span>Actionable Reminders: Never miss a crucial step during disaster recovery. Receive timely reminders to upload invoices and essential documents, all tailored to your location and the possibility of disaster conditions.</span></li>
+            <li><span>Disaster Resource Guidance: Stay informed about state and federal disaster relief program eligibility. Prisere provides in-app reminders and assistance for payment and electronic transfers during disasters.</span></li>
+        </ul>
+        
+        <h2>High-Priority Features for Enhanced Resilience:</h2>
+        <ul>
+            <li><span>Real-time Disaster Notifications: Prisere will notify you when there's a disaster in your area, ensuring you're promptly informed and can take necessary action to safeguard your business.</span></li>
+            <li><span>Revenue Stream Categorization: Effortlessly categorize revenue streams (eCommerce vs. in-store) to gain deeper insights into your financial data during business interruption.</span></li>
+            <li><span>Bank Connection for Swift Payments: Facilitate immediate claims payment during disasters with the ability to receive bank wire or electronic deposit options directly through the app.</span></li>
+        </ul>
+        
+
+        <p>With Prisere, you can proactively navigate disruptions, recover faster, and minimize the impact of disasters on your business. Join the ranks of innovative SMBs taking charge of their resilience journey.</p>
+        <a id="joinWaitlistLink" class="cta-button" href="#">Join the Waitlist</a>
+
+        <div id="emailFormContainer" style="display: none;">
+            <a id="joinWaitlistLink" class="cta-button" href="#">Join the Waitlist</a>
+            <div class="form-container">
+                <form id="emailForm">
+                    <div class="form-group">
+                        <label for="firstName">First Name<span class="required-marker">*</span></label>
+                        <input type="text" id="firstName" name="firstName" required>
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="lastName">Last Name<span class="required-marker">*</span></label>
+                        <input type="text" id="lastName" name="lastName" required>
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="companyName">Company Name</label>
+                        <input type="text" id="companyName" name="companyName">
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="email">Email<span class="required-marker">*</span></label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                    </div>
+        
+                    <span class="error-message" id="emailError"></span>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <p id="successMessage" style="display: none; text-align: center;">Thank you for joining the waitlist!</p>
+        </div>
+         
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
